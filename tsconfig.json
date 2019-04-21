@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "module": "es2015",
+    "target": "es5",
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "moduleResolution": "node",
+    "noImplicitThis": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@enums/*": [
+        "enums/*"
+      ],
+      "@entity": [
+        "entity/*"
+      ],
+      "@store": [
+        "store/*"
+      ],
+      "@validation/*": [
+        "validation/*"
+      ],
+      "@constants/*": [
+        "constants/*"
+      ],
+      "@api/*": [
+        "api/*"
+      ]
+    },
+    "lib": [
+      "es5",
+      "es2015",
+      "dom",
+      "scripthost"
+    ]
+  },
+  "include": [
+    "./**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
